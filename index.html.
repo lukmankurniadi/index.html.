@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Pribadi Saya</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 0; color: #333; background-color: #f4f4f4; }
+        header { background: #2c3e50; color: #fff; padding: 2rem 0; text-align: center; }
+        .container { width: 80%; margin: auto; overflow: hidden; padding: 20px; }
+        section { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        h2 { color: #2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 5px; }
+        .footer { text-align: center; padding: 20px; color: #888; }
+        ul { list-style: square; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Halo, Saya [Nama Kamu]!</h1>
+        <p>Selamat datang di ruang digital saya.</p>
+    </header>
+
+    <div class="container">
+        <section id="profil">
+            <h2>Tentang Saya</h2>
+            <p>Halo! Nama saya <strong>[Nama Kamu]</strong>. Saya adalah seseorang yang penuh semangat dan selalu ingin belajar hal-hal baru di dunia teknologi dan kreatif.</p>
+        </section>
+
+        <section id="hobi">
+            <h2>Hobi</h2>
+            <ul>
+                <li><strong>Membaca:</strong> Memperluas cakrawala berpikir.</li>
+                <li><strong>Olahraga:</strong> Menjaga kesehatan fisik dan mental.</li>
+                <li><strong>Coding:</strong> Mengubah ide menjadi baris kode yang berguna.</li>
+            </ul>
+        </section>
+
+        <section id="cita-cita">
+            <h2>Cita-cita</h2>
+            <p>Saya bercita-cita untuk menjadi seorang <strong>[Sebutkan Cita-citamu]</strong> yang mampu memberikan dampak positif bagi masyarakat luas melalui inovasi dan kerja keras.</p>
+        </section>
+
+        <section id="pengalaman">
+            <h2>Pengalaman</h2>
+            <ul>
+                <li><strong>Ketua Organisasi X (2023-2024):</strong> Memimpin tim dalam menyelenggarakan acara skala nasional.</li>
+                <li><strong>Magang di Perusahaan Y:</strong> Belajar tentang manajemen proyek dan kolaborasi tim profesional.</li>
+                <li><strong>Volunteer Event Z:</strong> Berkontribusi dalam kegiatan sosial lingkungan hidup.</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 [Nama Kamu]. Dibuat dengan penuh semangat.</p>
+    </div>
+
+</body>
+</html>
